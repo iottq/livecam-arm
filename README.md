@@ -15,7 +15,9 @@ wget https://github.com/iottq/livecam-arm/releases/download/v1.0.0/livecam-arm
 ```
 
 #### install package
-```sudo apt install cmake clang clang-format mosquitto-dev libpulse-dev libasound2-dev libjpeg-dev libcamera-dev libmosquitto-dev protobuf-compiler libprotobuf-dev```
+```
+sudo apt install cmake clang clang-format mosquitto-dev libpulse-dev libasound2-dev libjpeg-dev libcamera-dev libmosquitto-dev protobuf-compiler libprotobuf-dev
+```
 
 
 #### start program with command
