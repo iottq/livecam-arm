@@ -30,6 +30,7 @@ sudo apt install cmake clang clang-format mosquitto-dev libpulse-dev libasound2-
 #### start program with command
 
 ```
+chmod +x ./livecam-arm
 ./livecam-arm --camera=libcamera:0 --uid=064b75d9-c5b6-4e6a-9f1d-e6068aad6507
 or 
 ./livecam-arm --camera=v4l2:0 --uid=064b75d9-c5b6-4e6a-9f1d-e6068aad6507
