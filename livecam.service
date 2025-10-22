@@ -1,0 +1,14 @@
+[Unit]
+Description= The p2p camera via webrtc.
+After=network-online.target pulseaudio.service ec20.service
+
+[Service]
+Type=simple
+ExecStart=/opt/livecam-arm --camera=v4l2:0 --uid=064b75d9-c5b6-4e6a-9f1d-e6068aad6507
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
