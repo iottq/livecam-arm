@@ -16,6 +16,9 @@ It’s ideal for remote monitoring, robotics vision, and UAV (drone) video trans
 ### Hardware:
 Raspberry 3, Raspberry 4B, Raspberry zero are support. <br>
 
+### Camera:
+The Raspberry Pi Camera Module V2 and The Raspberry Pi Camera Module V3, CSI interface camera are support
+
 ### Usage:
 
 #### 1. download image
